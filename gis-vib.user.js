@@ -43,7 +43,7 @@ const lang = {
   it: 'Apri immagine'
 };
 
-const localizedViewImage = lang[(lang[navigator.language] ? navigator.language : 'en')];
+const localizedViewImage = lang[(lang[navigator.language] ? navigator.language : 'de')];
 
 function addButton(node) {
   if (node.nodeType === Node.ELEMENT_NODE) {
